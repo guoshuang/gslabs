@@ -1,0 +1,37 @@
+!!! 5
+html(lang='zh-CN')
+	head
+		include head
+		script(type='text/javascript', src='/js/p02.js')
+	body
+		div(data-role="page")
+			div(data-role="header",data-theme="",data-position="fixed")
+				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="javascript:history.go(-1);") 返回
+				h1 巡检单
+			div(data-role="content",id="main_content")
+				h2(onclick="alert(3234242)") ERP应用服务器
+				ul.pList 
+					- for (var i = 0; i < 10; ++i) {
+					li
+						.fl 服务状态						
+						.fr 
+							a.camera(href="javascript:void(0);")
+						.fr							 
+							fieldset(data-mini="true",data-role="controlgroup",data-type="horizontal")									
+									input(name="a",id="a",type="radio",value="1")
+									label(for="a") 正常
+									input(name="a",id="b",type="radio",value="0")
+									label(for="b") 异常
+						.desc(style="display:none;")
+							textarea 
+						.photos 
+							img(style="width:30px;height:30px;background:red;") 
+
+					- }
+
+
+
+			include foot
+
+
+

@@ -1,0 +1,21 @@
+!!! 5
+html(lang='zh-CN')
+	head
+		include head
+		script(type='text/javascript', src='/js/portal.js')
+	body
+		div(data-role="page")
+			div(data-role="header",data-theme="",data-position="fixed")
+				h1 移动巡检系统客户端
+			div(data-role="content",id="main_content")
+				form
+					label 用户名： 
+						input(name="usrname",data-clear-btn="true")
+					label 密码： 
+						input(name="usrpws",type="password",data-clear-btn="true")		
+					a(data-role="button",data-inline="true",href="portal.html",id="#login",data-icon="arrow-r",data-iconpos="right",data-transition="pop") 登录
+			
+			include foot
+
+
+

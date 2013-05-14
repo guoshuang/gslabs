@@ -1,0 +1,36 @@
+!!! 5
+html(lang='zh-CN')
+	head
+		include head
+		script(type='text/javascript', src='/js/portal.js')
+	body
+		div(data-role="page")
+			div(data-role="header",data-theme="",data-position="fixed")
+				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="javascript:history.go(-1);") 返回
+				h1 巡检单
+			div(data-role="content",id="main_content")
+				table.xunjian(width="100%")
+					tbody
+						tr
+							td.t(colspan="4") ERP应用服务器
+						tr
+							td 服务状态
+							td
+								nobr
+									fieldset(data-mini="true",data-role="controlgroup",data-type="horizontal")
+									
+										input(name="a",id="a",type="radio",checked="on")
+										label(for="a") 正常
+										input(name="a",id="b",type="radio")
+										label(for="b") 异常
+							td(width="40")
+								input.fullWidth(data-mini="true")
+							td
+								a.camera(href="javascript:void(0);") 12
+						
+
+
+			include foot
+
+
+

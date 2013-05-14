@@ -1,0 +1,1424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"content"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"color",
+				"color-meta"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"p",
+				"progress"
+			],
+			[
+				"coun",
+				"counter-increment"
+			],
+			[
+				"cou",
+				"counter-reset"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"css",
+				"cssstroke6"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"main",
+				"margin-top"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"c",
+				"table-cell"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"ca",
+				"capitalize"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"content",
+				"counter-increment"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"trans",
+				"translate"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ta",
+				"table-column"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"cu",
+				"currentTime"
+			],
+			[
+				"ti",
+				"timer"
+			],
+			[
+				"prepend",
+				"prependTo"
+			],
+			[
+				"tag",
+				"tagshtml"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "include head\nscript(type='text/javascript', src='/js/portal.js')\nbody(onload=\"$('h1').append('<p>'+screen.availWidth+'</p>')\")\n	div(data-role=\"page\")\n		div(data-role=\"header\",data-theme=\"\",data-position=\"fixed\")\n			a(data-role=\"button\",data-icon=\"arrow-l\",data-iconpos=\"left\",href=\"javascript:history.go(-1);\") 返回\n			h1 今日巡检\n		#main_content(data-role=\"content\")\n			table(data-role=\"table\",class=\"gtd\")\n				thead\n					tr\n						th 编号1111222\n						th 巡检人\n						//- th 时间\n						//- th 标题sss\n						//- th 状态\n				tbody\n					tr\n						td 04-12-01\n						td 张三\n						//- td 10:00\n						//- td 灾备中心机房\n						//- td 已经完成\n\n				div(style=\"clear:both;margin-top:100px\") 1 1 2 3 423 42 42 4 24 2 42 42 5 456 7567 5 75 757 5757 \n\n		include foot\n\n	",
+			"file": "p01.jade",
+			"file_size": 765,
+			"file_write_time": 1368501426000000,
+			"settings":
+			{
+				"buffer_size": 729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "foot.jade",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.less",
+			"settings":
+			{
+				"buffer_size": 1848,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"tag",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"syta",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sya",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"s",
+				"Set Syntax: Markdown"
+			],
+			[
+				":s",
+				"File: Save All"
+			],
+			[
+				"package control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set syntax:ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"s y n ta x",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 304.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/LESS-build/readme.md",
+		"/Users/david/Desktop/mobile-skynet/p01.jade",
+		"/Users/david/Desktop/mobile-skynet/p01.html",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/jade.sublime-build",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/info.plist",
+		"/Users/david/Desktop/mobile-skynet/p02.html",
+		"/Users/david/Desktop/mobile-skynet/css/main.css",
+		"/Users/david/Desktop/mobile-skynet/index.jade",
+		"/Users/david/Desktop/mobile-skynet/portal.jade",
+		"/Users/david/Desktop/mobile-skynet/p02.jade",
+		"/Users/david/Desktop/mobile-skynet/css/main.less",
+		"/Users/david/Desktop/mobile-skynet/css/themes/default/jquery.mobile-1.3.1.min.css",
+		"/Users/david/Desktop/mobile-skynet/css/themes/default/jquery.mobile.theme-1.3.1.min.css",
+		"/Users/david/Desktop/mobile-skynet/head.jade",
+		"/Users/david/Desktop/mobile-skynet/index.html",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/jade.sublime-settings",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/Commands/Render.tmCommand",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/david/Desktop/1.less",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Less2Css/Default (OSX).sublime-keymap",
+		"/Users/david/Desktop/jquery.mobile-1.3.1/demos/index.html",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/LESS.sublime-build",
+		"/Users/david/hexo/tt4/source/_posts/software/sublime-syntax-coffee-jade-stylus.md",
+		"/Users/david/hexo/tt4/source/_posts/life/music-in_my_secret_life.md",
+		"/Users/david/Desktop/jade/1.html",
+		"/Users/david/hexo/tt4/source/_posts/frontend/lesscss-arguments.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/sublime-jade-build.md",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/Commands/Preview.tmCommand",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/README.md",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/test_jades/page.jade",
+		"/Users/david/hexo/tt4/source/labs/less-arguments-eg.less",
+		"/Users/david/hexo/tt4/source/_posts/software/sublime-package-control.md",
+		"/Users/david/hexo/tt4/source/labs/less-arguments-eg.css",
+		"/Users/david/hexo/tt4/g",
+		"/Users/david/hexo/tt4/source/labs/line-gradient.css",
+		"/Users/david/hexo/tt4/source/_posts/css/linear-gradient.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/chrome-console-command.md",
+		"/Users/david/hexo/tt4/source/_posts/mac/mac-terminal-prompt.md",
+		"/Users/david/.bash_profile",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css_/_partial/article.styl",
+		"/Users/david/hexo/tt4/source/_posts/css/img-after-not-work.md",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css_/_base/layout.styl",
+		"/Users/david/hexo/tt4/_config.yml",
+		"/Users/david/hexo/tt4/source/_posts/css/vendor-prefixes-is-shit.md",
+		"/Users/david/hexo/tt4/source/labs/line-gradient.less",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css_/_base/variable.styl",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css_/style.styl",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css_/_base/utils.styl",
+		"/Users/david/hexo/tt4/themes/guoshuang/layout/_partial/after_footer.ejs",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/david/hexo/tt4/source/_posts/software/sublime-cli.md",
+		"/Users/david/hexo/tt4/source/_posts/javascript/regexp-dot-not-include-newline.md",
+		"/Users/david/hexo/tt4/p",
+		"/Users/david/bin/subl",
+		"/Users/david/hexo/tt4/source/_posts/css/less.md",
+		"/Users/david/hexo/tt4/source/labs/111111111.less",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/david/Desktop/less-test/1.css",
+		"/Users/david/hexo/tt4/source/_posts/frontend/npm-g.md",
+		"/Users/david/hexo/tt4/source/_posts/software/git-ignore.md",
+		"/Users/david/Desktop/less-test/1.less",
+		"/usr/local/bin/uglifycss",
+		"/Users/david/hexo/tt4/source/portfolio/index.md",
+		"/usr/local/lib/node_modules/hexo/node_modules/graceful-fs/package.json",
+		"/usr/local/lib/node_modules/hexo/node_modules/graceful-fs/README.md",
+		"/Users/david/hexo/tt4/npm-install-4793.sh",
+		"/usr/local/lib/node_modules/hexo/node_modules/nib/Readme.md",
+		"/usr/local/lib/node_modules/hexo/node_modules/watchr/README.md",
+		"/Users/david/hexo/tt4/source/_posts/mac/man-pageup-down.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/regular-expression.md",
+		"/Users/david/hexo/tt4/source/labs/add_event_listener.js",
+		"/Users/david/hexo/tt4/source/labs/all.htm",
+		"/Users/david/hexo/tt4/source/_posts/javascript/addEventListener.md",
+		"/Users/david/hexo/tt4/source/_posts/web/check-validate-site.md",
+		"/Users/david/Desktop/1.htm",
+		"/Users/david/server.js",
+		"/Users/david/Desktop/eventlistener.htm",
+		"/Users/david/hexo/tt4/themes/guoshuang/layout/_partial/article.ejs",
+		"/Users/david/hexo/tt4/source/_posts/web/testing.md",
+		"/Users/david/hexo/tt4/themes/guoshuang/layout/_partial/head.ejs",
+		"/Users/david/hexo/tt4/public/.git/info/exclude",
+		"/Users/david/hexo/tt4/source/_posts/javascript/javascript-fun.md",
+		"/Users/david/hexo/tt4/source/_posts/css/table-reflow.md",
+		"/Users/david/hexo/tt4/source/_posts/css/css-clip.md",
+		"/Users/david/hexo/tt4/source/_posts/mac/mac-net-info.md",
+		"/Users/david/hexo/tt4/source/_posts/javascript/javascript-tutorial-notes-2.md",
+		"/Users/david/hexo/tt4/source/_posts/javascript/javascript-quiz-2.md",
+		"/Users/david/hexo/tt4/source/_posts/javascript/javascript-instanceof.md",
+		"/Users/david/hexo/tt4/source/_posts/css/confusing-css.md",
+		"/Users/david/hexo/tt4/source/robots.txt",
+		"/Users/david/hexo/tt4/themes/guoshuang/layout/_partial/archive.ejs",
+		"/Users/david/hexo/tt4/themes/guoshuang/_config.yml",
+		"/Users/david/hexo/tt4/source/_posts/web/check-broken-links.md",
+		"/Users/david/hexo/tt4/source/_posts/software/git-size-ignore.md",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/js_/google-code-prettify/prettify.css",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css_/_partial/syntax.styl",
+		"/Users/david/hexo/tt4/themes/guoshuang/layout/_widget/search.ejs",
+		"/Users/david/hexo/tt4/themes/guoshuang/layout/_partial/header.ejs",
+		"/Users/david/hexo/tt4/source/_posts/javascript/javascript-tutorial-notes-1.md",
+		"/Users/david/hexo/tt4/source/_posts/mac/flatland theme 4 vim.md",
+		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-change-url.md",
+		"/Users/david/hexo/tt4/source/_posts/life/hawkin.md",
+		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-tags.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/express-jade-stylus-coffee.md",
+		"/Users/david/hexo/tt4/public/robots.txt",
+		"/Users/david/hexo/tt4/source/_posts/hexo/hexo安装.md",
+		"/Users/david/hexo/tt4/source/_posts/javascript/jquery访问iframe内容.md",
+		"/Users/david/hexo/tt4/source/labs/jquery-iframe.htm",
+		"/Users/david/hexo/tt4/source/labs/css-attr.htm",
+		"/Users/david/hexo/tt4/source/_posts/css/css-attr.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/prettify-guoshuang.md",
+		"/Users/david/hexo/tt4/source/tools/index.md",
+		"/Users/david/hexo/tt4/source/_posts/net/check-broken-links.md",
+		"/Users/david/hexo/tt4/source/_posts/net/cdn.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/prettify强制不换行.md",
+		"/Users/david/hexo/tt4/source/_posts/frontend/ie5-view-popular-sites.md",
+		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-favicon.md",
+		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-quick-publish.md",
+		"/Users/david/hexo/tt4/source/_posts/javascript/baranovskiy-quiz.md",
+		"/Users/david/hexo/tt4/source/_posts/software/sublime 使用技巧.md",
+		"/Users/david/hexo/tt4/source/_posts/software/sublime-folder_exclude_patterns.md",
+		"/Users/david/hexo/tt4/source/_posts/net/git-size-ignore.md",
+		"/Users/david/hexo/tt4/source/_posts/guoshuangcss/960gs.md",
+		"/Users/david/hexo/tt4/tt4.sublime-workspace",
+		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-run-js.md",
+		"/Users/david/hexo/tt4/themes/guoshuang/source/css/_partial/article.styl",
+		"/Users/david/hexo/tt4/tt4.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/david/Desktop/mobile-skynet/css",
+			"*.styl",
+			"*.md",
+			"<open files>",
+			"*.md",
+			"",
+			"*.md",
+			"*.styl",
+			".styl",
+			".stylu",
+			"",
+			"*.md",
+			"",
+			"~/sites/",
+			"",
+			"/Users/david/hexo/tt4/",
+			"/Users/david/hexo/tt4/source",
+			"/Users/david/hexo/tt4/",
+			"/Users/david/hexo/tt4/public/",
+			"/Users/david/hexo/tt4/source/_post",
+			"/Users/david/hexo/tt4/source",
+			"/Users/david/Desktop/虾米音乐网(xiami.com) - 高品质音乐 发现 分享_files",
+			"/Users/david/hexo/tt4/source/_posts",
+			"/Users/david/Desktop",
+			"/Users/david/hexo/tt4/source",
+			"/Users/david/hexo/tt4",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"35em",
+			".ui-responsive",
+			"ui-responsive",
+			".ui-respon",
+			"radio-choice-v-2",
+			"text",
+			"lineare",
+			"s",
+			"shadow",
+			"text",
+			"text-",
+			"jquery",
+			"  ",
+			"远程主机，所以主机名还是要保留，不然分不清本地还是远程。",
+			"0;",
+			"- (.*)([0-9]+;[0-9]+)$",
+			"- (.*)\\b;\\b$",
+			"img",
+			"max-width: 600px",
+			"float:left",
+			"@dir,@c1,@c2",
+			",@rest",
+			"sublime包目录",
+			"blue",
+			"height:9em;",
+			"white-space:nowrap;",
+			"textarea",
+			"document.getElementById('regexp-eg0511-rule1').value=this.firstChild.nodeValue;",
+			" icon-3x",
+			"span",
+			"<span",
+			"span",
+			" style=\"cursor:pointer;font-size:1.5em;letter-spacing:2px;\"",
+			"ont-size:2em",
+			"er;",
+			"strong",
+			"span",
+			"<style.*<\\/style>",
+			"<script.*<\\/script>",
+			"<script",
+			"</b>",
+			"<b class=\"hide\">",
+			"</b>",
+			"<b class=\"l\">",
+			"<b",
+			"</b>",
+			"<b>",
+			".console_command",
+			"</b>",
+			"clearfix",
+			".btn",
+			"article .btn",
+			".btn",
+			"article .btn",
+			"figcaption",
+			"#wrapper",
+			"archive-title",
+			"clearfix",
+			"clearfix()",
+			".clearfix",
+			"inlin-block",
+			"alter",
+			"feed",
+			"#)",
+			"(2013/",
+			"/net/",
+			"cdn",
+			"(/css/",
+			"(/2013/",
+			"/2013/",
+			"aaaa",
+			"js",
+			"css",
+			"/css/",
+			"sublime",
+			"/pics/",
+			"/img/",
+			"guoshuang.png",
+			"guoshuang",
+			"shim.gif",
+			"mac-cmd40",
+			"mac.cmd",
+			"gs.jpg",
+			"mac-cmd40.png",
+			"mac-cmd.png",
+			"shim.gif",
+			"/img/",
+			"bbra.jpg",
+			"\\/pics\\/",
+			"/pics/",
+			"/img/",
+			"ta g s",
+			"public",
+			"css",
+			"public",
+			"2",
+			"20px",
+			"dl",
+			"<i class=\"icon-cmd\"></i>",
+			"<key><i class=\"icon-cmd\"></i>",
+			"<key>",
+			"<key><i class=\"icon-cmd\"></i>",
+			"</key>",
+			"h2",
+			"h1",
+			"window.open",
+			"cover",
+			"date",
+			"a[href]",
+			"^=",
+			"></script>",
+			"<script ",
+			"</textarea>",
+			"<textarea class=\"copycode\" onclick=\"this.select();\">",
+			"</td>",
+			"<td>",
+			"200",
+			"stripedTb",
+			"#nthExample",
+			"li",
+			"p",
+			"th",
+			"thead",
+			"p",
+			"span",
+			"console_command",
+			"      ",
+			"            "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t",
+			"- \\1\\*\\*\\2\\*\\*",
+			"- \\1\\*\\2\\*",
+			"- \\1 \\*\\2\\*",
+			"- \\1 \\*\\*",
+			"- \\1 \\*\\2\\*",
+			"</strong>",
+			"<strong class=\"hide\">",
+			"</strong>",
+			"<strong class=\"l\">",
+			"</strong>",
+			"<strong>",
+			"<key><kbd class=\"cmd\"></kbd>",
+			"<key><kbd class=\"cmd\"></kbd>+K</key>",
+			"&gt;&lt;/script&gt; ",
+			"&lt;script ",
+			"</pre>",
+			"<pre class=\"copycode\">",
+			"</div></td>",
+			"<td><div class=\"c\">",
+			"hoverTb",
+			".nthExample",
+			"；",
+			"      ",
+			"；",
+			"",
+			"eval(this.innerText||this.textContent);",
+			"background:#eee;padding:8px;border:solid 1px #ccc;",
+			"style.display='block';",
+			"span",
+			"</div>",
+			"<div class=\"hide\">",
+			"<pre title=\"点击看答案\" class=\"mt10\" onclick=",
+			"nextSibling.style.",
+			"<span class=\"hide\">",
+			"<span>",
+			"this.nextSibling.nextSibling.",
+			"",
+			"style.visibility='visible'",
+			"style.display='visible'",
+			"<b>",
+			"",
+			"<pre class=\"mt10\" onclick=\"this.nextSibling.nextSibling.children[0].style.display='inline-block';\">",
+			"答案：",
+			"<pre class=\"mt10\">",
+			"点这里看答案",
+			"### ",
+			"## ",
+			"* ",
+			"\\* \\1\\n",
+			"\\* \\1",
+			"-   ",
+			"-\\1\\n",
+			"",
+			"<tr><td>\\1</td><td class=\"score\">10</td></tr>\\n",
+			"<td>\\1</td><td class=\"score\">10</td>\\n",
+			"<td>\\1</td><td class=\"score\"></td>\\n",
+			"<td>\\1</td><td class=\"score\"></td>",
+			"class=\"l\"",
+			"",
+			"<i class=\"icon-cmd\"></i>",
+			"<key>\\1</key>",
+			"",
+			"<li>",
+			"</li>",
+			"<li>",
+			" ",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "p01.jade",
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 284.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "foot.jade",
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.less",
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Less/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1257.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 120.0
+	},
+	"output.find_results":
+	{
+		"height": 223.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"css/main.less"
+			],
+			[
+				"p01",
+				"p01.jade"
+			],
+			[
+				"p0",
+				"p02.html"
+			],
+			[
+				"po",
+				"portal.jade"
+			],
+			[
+				"sublime-",
+				"source/_posts/software/sublime-syntax-coffee-jade-stylus.md"
+			],
+			[
+				"music",
+				"source/_posts/life/music-in_my_secret_life.md"
+			],
+			[
+				"les",
+				"source/labs/less-arguments-eg.less"
+			],
+			[
+				"le",
+				"source/_posts/frontend/lesscss-arguments.md"
+			],
+			[
+				"sublime-package-control",
+				"source/_posts/software/sublime-package-control.md"
+			],
+			[
+				"line",
+				"source/labs/line-gradient.css"
+			],
+			[
+				"line-",
+				"source/_posts/css/linear-gradient.md"
+			],
+			[
+				"article",
+				"themes/guoshuang/source/css_/_partial/article.styl"
+			],
+			[
+				"_co",
+				"_config.yml"
+			],
+			[
+				"arti",
+				"themes/guoshuang/source/css_/_partial/article.styl"
+			],
+			[
+				".styl",
+				"themes/guoshuang/source/css_/_base/layout.styl"
+			],
+			[
+				"vari",
+				"themes/guoshuang/source/css_/_base/variable.styl"
+			],
+			[
+				"after",
+				"themes/guoshuang/layout/_partial/after_footer.ejs"
+			],
+			[
+				".le",
+				"source/labs/line-gradient.less"
+			],
+			[
+				"dot",
+				"source/_posts/javascript/regexp-dot-not-include-newline.md"
+			],
+			[
+				"jade",
+				"source/_posts/software/sublime-syntax-coffee-jade-stylus.md"
+			],
+			[
+				"-g",
+				"source/_posts/frontend/npm-g.md"
+			],
+			[
+				"regexp",
+				"source/_posts/javascript/regexp-dot-not-include-newline.md"
+			],
+			[
+				"npm",
+				"npm-install-4793.sh"
+			],
+			[
+				"git",
+				"source/_posts/software/git-ignore.md"
+			],
+			[
+				"man",
+				"source/_posts/mac/man-pageup-down.md"
+			],
+			[
+				"regu",
+				"source/_posts/frontend/regular-expression.md"
+			],
+			[
+				"add",
+				"source/labs/add_event_listener.js"
+			],
+			[
+				"chrome",
+				"source/_posts/frontend/chrome-console-command.md"
+			],
+			[
+				"all",
+				"source/labs/all.htm"
+			],
+			[
+				"chel",
+				"source/_posts/web/check-validate-site.md"
+			],
+			[
+				"var",
+				"themes/guoshuang/source/css_/_base/variable.styl"
+			],
+			[
+				"art",
+				"themes/guoshuang/source/css_/_partial/article.styl"
+			],
+			[
+				"chec",
+				"source/_posts/web/check-validate-site.md"
+			],
+			[
+				"head",
+				"themes/guoshuang/layout/_partial/head.ejs"
+			],
+			[
+				"che",
+				"source/_posts/web/check-broken-links.md"
+			],
+			[
+				"ro",
+				"source/robots.txt"
+			],
+			[
+				"musi",
+				"source/_posts/life/music-in_my_secret_life.md"
+			],
+			[
+				"va",
+				"themes/guoshuang/source/css_/_base/variable.styl"
+			],
+			[
+				"arch",
+				"themes/guoshuang/layout/_partial/archive.ejs"
+			],
+			[
+				"_con",
+				"themes/guoshuang/_config.yml"
+			],
+			[
+				"check",
+				"source/_posts/web/check-broken-links.md"
+			],
+			[
+				"search",
+				"themes/guoshuang/layout/_widget/search.ejs"
+			],
+			[
+				"header",
+				"themes/guoshuang/layout/_partial/header.ejs"
+			],
+			[
+				"exp",
+				"source/_posts/frontend/express-jade-stylus-coffee.md"
+			],
+			[
+				"hexo-c",
+				"source/_posts/hexo/hexo-change-url.md"
+			],
+			[
+				"css-c",
+				"source/_posts/css/css-clip.md"
+			],
+			[
+				"ha",
+				"source/_posts/life/hawkin.md"
+			],
+			[
+				"hexo-t",
+				"source/_posts/hexo/hexo-tags.md"
+			],
+			[
+				"flat",
+				"source/_posts/mac/flatland theme 4 vim.md"
+			],
+			[
+				"javascript",
+				"source/_posts/javascript/javascript-tutorial-notes-1.md"
+			],
+			[
+				"git-",
+				"source/_posts/software/git-size-ignore.md"
+			],
+			[
+				"prettify-guoshu",
+				"source/_posts/frontend/prettify-guoshuang.md"
+			],
+			[
+				"css-",
+				"source/_posts/css/css-attr.md"
+			],
+			[
+				"jquery-ifra",
+				"source/labs/jquery-iframe.htm"
+			],
+			[
+				"iframe",
+				"source/_posts/javascript/jquery访问iframe内容.md"
+			],
+			[
+				"hexo安装",
+				"source/_posts/hexo/hexo安装.md"
+			],
+			[
+				"hexotags",
+				"source/_posts/hexo/hexo-tags.md"
+			],
+			[
+				"expre",
+				"source/_posts/frontend/express-jade-stylus-coffee.md"
+			],
+			[
+				"chek",
+				"source/_posts/web/check-broken-links.md"
+			],
+			[
+				"tools",
+				"source/tools/index.md"
+			],
+			[
+				"robo",
+				"source/robots.txt"
+			],
+			[
+				"excl",
+				"source/_posts/software/sublime-folder_exclude_patterns.md"
+			],
+			[
+				"exclu",
+				"source/_posts/software/sublime-folder_exclude_patterns.md"
+			],
+			[
+				"portf",
+				"source/portfolio/index.md"
+			],
+			[
+				"hexo-ru",
+				"source/_posts/hexo/hexo-run-js.md"
+			],
+			[
+				"",
+				"tt4.sublime-project"
+			],
+			[
+				"arr",
+				"source/_posts/javascript/javascript-clone-array.md"
+			],
+			[
+				"3d",
+				"source/_posts/css/css-3d-menu.md"
+			],
+			[
+				"array",
+				"source/_posts/javascript/javascript-clone-array.md"
+			],
+			[
+				"foo",
+				"themes/guoshuang/layout/_partial/after_footer.ejs"
+			],
+			[
+				"my",
+				"source/_posts/生活/music-in_my_secret_life.md"
+			],
+			[
+				"gmu",
+				"source/labs/gmusic.js"
+			],
+			[
+				"json",
+				"source/_posts/前端技术/json-length.md"
+			],
+			[
+				"tutorialnotes2",
+				"source/_posts/javascript/javascript-tutorial-notes-2.md"
+			],
+			[
+				"auto",
+				"source/_posts/css/auto-increment-ol-list.md"
+			],
+			[
+				"toggl",
+				"source/_posts/Mac/mac-toggle-terminal-tabs.md"
+			],
+			[
+				"to",
+				"source/tool.md"
+			],
+			[
+				"dns",
+				"source/_posts/软件/google-dns.md"
+			],
+			[
+				"why",
+				"source/_posts/前端技术/why-not-html-minifier.md"
+			],
+			[
+				"text",
+				"source/_posts/css/css-text-stroke.md"
+			],
+			[
+				"shell",
+				"source/_posts/Mac/shell-alias.md"
+			],
+			[
+				"mp3",
+				"source/labs/mp3.htm"
+			],
+			[
+				"mac-",
+				"source/_posts/Mac/mac-terminal-tips.md"
+			],
+			[
+				"sublime-ex",
+				"source/_posts/软件/sublime-folder_exclude_patterns.md"
+			],
+			[
+				"hexo简单",
+				"source/_posts/hexo/hexo简单本地搜索.md"
+			],
+			[
+				"momen",
+				"source/_posts/javascript/momentjs.md"
+			],
+			[
+				"pret",
+				"themes/guoshuang/source/js/google-code-prettify/prettify.css"
+			],
+			[
+				"hexo-qu",
+				"source/_posts/hexo/hexo-quick-publish.md"
+			],
+			[
+				"mom",
+				"source/_posts/javascript/momentjs.md"
+			],
+			[
+				"ar",
+				"themes/guoshuang/source/css/_partial/archive.styl"
+			],
+			[
+				"css-cl",
+				"source/_posts/css/css-clip.md"
+			],
+			[
+				"mome",
+				"source/labs/moment-clock.js"
+			],
+			[
+				"moment",
+				"source/_posts/javascript/momentjs.md"
+			],
+			[
+				"mo",
+				"source/_posts/Mac/mac-optimize.md"
+			],
+			[
+				"foot",
+				"themes/guoshuang/layout/_partial/after_footer.ejs"
+			],
+			[
+				"hea",
+				"themes/guoshuang/source/css/_partial/header.styl"
+			],
+			[
+				"all.html",
+				"public/labs/all.html"
+			],
+			[
+				"font-",
+				"source/_posts/css/font-face-local.md"
+			],
+			[
+				"tool",
+				"source/tool.md"
+			],
+			[
+				"uti",
+				"themes/guoshuang/source/css/_base/utils.styl"
+			],
+			[
+				"ie5",
+				"source/_posts/前端技术/ie5-view-popular-sites.md"
+			],
+			[
+				"table-",
+				"source/_posts/css/table-reflow.md"
+			],
+			[
+				"colon",
+				"source/_posts/css/css-colon-vs-double-colon.md"
+			],
+			[
+				"preti",
+				"themes/guoshuang/source/js/google-code-prettify/prettify.css"
+			],
+			[
+				"nth-child",
+				"source/_posts/css/nth-child-vs-nth-of-type.md"
+			],
+			[
+				"tabe",
+				"source/_posts/css/table-hover-column-with-pure-css.md"
+			],
+			[
+				"table",
+				"public/labs/table-hover-column-with-pure-css.html"
+			],
+			[
+				"mac-togg",
+				"source/_posts/Mac/mac-toggle-terminal-tabs.md"
+			],
+			[
+				"lazy",
+				"source/_posts/javascript/javascript-lazy-load.md"
+			],
+			[
+				"flatlandtheme",
+				"source/_posts/Mac/flatland theme 4 vim.md"
+			],
+			[
+				"java",
+				"source/_posts/javascript/javascript-lazy-load.md"
+			],
+			[
+				"nth-",
+				"source/_posts/css/nth-child-vs-nth-of-type.md"
+			],
+			[
+				"confusing",
+				"source/_posts/css/confusing-css.md"
+			],
+			[
+				"2",
+				"source/_posts/生活/2-dimensions.md"
+			],
+			[
+				"prettify",
+				"themes/guoshuang/source/js/google-code-prettify/prettify.css"
+			],
+			[
+				"pre",
+				"themes/guoshuang/source/js/google-code-prettify/prettify.css"
+			],
+			[
+				"mac",
+				"source/_posts/Mac/mac-optimize.md"
+			],
+			[
+				"hexo-f",
+				"source/_posts/hexo/hexo-fontawesome-error.md"
+			],
+			[
+				"not",
+				"source/_posts/javascript/javascript-tutorial-notes-2.md"
+			],
+			[
+				"chr",
+				"source/_posts/前端技术/chrome-console-command.md"
+			],
+			[
+				"fun",
+				"source/_posts/javascript/javascript-fun.md"
+			],
+			[
+				"baranovskiy-quiz",
+				"source/_posts/javascript/baranovskiy-quiz.md"
+			],
+			[
+				"regp",
+				"source/_posts/前端技术/regular-expression.md"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"sub",
+				"source/_posts/软件/sublime 使用技巧.md"
+			],
+			[
+				"express",
+				"source/_posts/前端技术/express-jade-stylus-coffee.md"
+			],
+			[
+				"sublime",
+				"source/_posts/软件/sublime-syntax-coffee-jade-stylus.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/david/hexo/tt4/tt4.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 121.0,
+	"status_bar_visible": true
+}

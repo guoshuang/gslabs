@@ -1,0 +1,143 @@
+/*样式内容*/
+.ui-page {
+  -webkit-backface-visibility: hidden;
+}
+#portal {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /*li {
+		margin:0;
+		padding:0;
+		display: inline-block;
+		width:100px;
+		height:100px;
+		line-height:100px;
+		text-overflow:normal;
+		background-color:@blue;
+		text-align: center;
+		vertical-align: middle;
+		margin: 20px;
+		color:#fff;
+		.round();
+		.text_shadow();
+		.line_gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
+		.box_shadow(2px 2px 5px #666);
+		cursor: pointer;
+		
+		span {
+			padding:0;
+			text-overflow:clip;
+		}
+
+
+	}
+	*/
+
+}
+#portal li {
+  display: inline-block;
+  width: 8em;
+}
+/*jmobile 是 18 36*/
+.fullWidth {
+  width: 100%;
+}
+table.xunjian td {
+  font-size: 14px;
+}
+table.xunjian td.t {
+  font-size: 16px;
+}
+#footer {
+  text-align: center;
+  bottom: 0;
+  padding: .5em;
+  font-weight: 500;
+  color: #666666;
+  font-size: 14px;
+}
+/*hack mobile*/
+/*.ui-bar-a {
+	background-color:#004038;
+	//.line_gradient(top,rgba(255,255,255,0),rgba(255,255,255,0) 50%)
+	.line_gradient(top,#004038,rgba(0,0,0,0.6));
+}*/
+.gtb th {
+  font-size: 14px;
+}
+.gtb td {
+  font-size: 16px;
+}
+.gtb .ui-table-cell-label {
+  font-size: 14px;
+  text-align: right;
+  min-width: auto;
+}
+.gtb tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}
+@media (min-width: 400px) {
+  .gtb tbody th,
+  .gtb tbody td {
+    display: table-cell;
+    margin: 0;
+  }
+  .ui-table-cell-label {
+    display: none !important;
+  }
+  .ui-table-reflow thead th {
+    display: table-cell;
+  }
+}
+@media (max-width: 400px) {
+  .gtb th,
+  .gtb td {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    clear: left;
+  }
+  .ui-table-cell-label {
+    display: inline-block !important;
+  }
+  .ui-table-reflow thead th {
+    display: none ;
+  }
+}
+/*p02*/
+ul.pList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.pList li {
+  margin: 0;
+  padding: 0;
+}
+ul.pList li .fl {
+  float: left;
+  line-height: 40px;
+}
+ul.pList li .fr {
+  float: right;
+}
+ul.pList li .fr .camera {
+  margin-left: 10px;
+}
+ul.pList li .desc {
+  clear: both;
+}
+ul.pList li .photos {
+  clear: both;
+}
+.camera {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background: url(img/camera.png) center center no-repeat;
+  text-indent: -9999px;
+}

@@ -1,0 +1,27 @@
+!!! 5
+html(lang='zh-CN')
+	head
+		include head
+		script(type='text/javascript', src='/js/portal.js')
+	body
+		div(data-role="page")
+			div(data-role="header",data-theme="",data-position="fixed")
+				h1 移动巡检系统客户端
+			div(data-role="content",id="main_content")
+				ul(id="portal")
+					li
+						a(data-role="button",href="p01.html") 今日巡检
+					li
+						a(data-role="button",href="p02.html") 巡检检查
+					li
+						a(data-role="button",href="p03.html") 参数设置
+					li
+						a(data-role="button",href="p04.html") 数据下载
+					li
+						a(data-role="button",href="p05.html") 数据上报
+					li
+						a(data-role="button",href="p06.html") 系统帮助
+			
+			include foot
+
+			
