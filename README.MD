@@ -1,3 +1,6 @@
+mobile 巡检
+======
+
 ## todo list
 
 - 本地非域的 ajax
@@ -38,4 +41,6 @@ AAA 整个目录
 `node server.js`
 
 或者 python 或者任意本地
+
+davidguoshuang[at]gmail.com
 
