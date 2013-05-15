@@ -2,7 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "/Users/david/Desktop/mobile-skynet"
+			"path": "/Users/david/Desktop/mobile-skynet",
+      "folder_exclude_patterns": ["backup"],
+      "file_exclude_patterns": [".gitignore","*.html","*.css"]
 		}
 	]
 }
+

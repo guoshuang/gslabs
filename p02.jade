@@ -5,19 +5,34 @@ html(lang='zh-CN')
 	body
 		div(data-role="page")
 			div(data-role="header",data-position="fixed")
-				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="p01.html") 返回
+				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
 				h1 机房设备巡检单
 				a(data-role="button",data-icon="plus",data-iconpos="left",href="#1",onclick="save_xunjian()") 保存
 			div(data-role="content",id="main_content")
 				
-				div(style="text-align:right;color:#666") 巡检人  2013-05-15
-				div#filter 
-					span(class="fleft") 
-						input(type="checkbox",id="searchFilter",name="searchFilter",data-mini="true")
-						label(for="searchFilter") 仅显示异常
-					span(class="fright",style="width:8em")
-						input(type="search",data-mini="true")
-					div.clear
+				div.ui-grid-b
+					.ui-block-a
+						select(data-mini="true")
+							option 全部
+							option 仅显示异常
+							option 仅显示正常
+					.ui-block-b
+						select(data-mini="true")
+							option 张三
+							option 里斯
+							option 王五
+
+					.ui-block-c
+						select(data-mini="true")
+							option 3天
+							option 一周
+							option 两周
+							option 一个月
+
+
+							
+				div#filter2
+					
 
 
 				h3 ERP应用服务器
@@ -25,7 +40,7 @@ html(lang='zh-CN')
 					-for(i=1;i<5;i++){
 					li
 						div()
-							div(class="fleft",style="padding-top:0.7em") 服务状态
+							div(class="fleft",style="padding-top:0.7em") 服务状态 #{i}
 							div(class="fright") 
 								div(class="fleft")
 									select(data-role="slider",data-mini="true")
@@ -38,7 +53,19 @@ html(lang='zh-CN')
 							div.clear
 						
 					-}
-
+			div(style="position:fixed;bottom:0;width:100%;z-index:9999;")
+				div(data-role="navbar")
+					ul#gDate
+						li
+							a.ui-btn-active 今天
+						li
+							a 昨天
+						li
+							a 前天
+						li
+							a 大前天
+						li
+							a &gt;
 
 
 

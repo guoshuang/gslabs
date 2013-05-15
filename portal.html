@@ -14,17 +14,17 @@
 </html>
 <body id="page_portal">
   <div data-role="page">
-    <div data-role="header" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="index.html">返回</a>
+    <div data-role="header" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="index.html" onclick="return window.confirm('你确认要退出登录吗？')">返回</a>
       <h1>移动巡检系统客户端</h1>
     </div>
     <div data-role="content">
       <ul id="portal">
         <li><a data-role="button" href="p01.html">今日巡检</a></li>
-        <li><a data-role="button" href="p02.html">巡检检查</a></li>
-        <li><a data-role="button" href="p03.html">参数设置</a></li>
-        <li><a data-role="button" href="p04.html">数据下载</a></li>
-        <li><a data-role="button" href="p05.html">数据上报</a></li>
-        <li><a data-role="button" href="p06.html">系统帮助</a></li>
+        <li><a data-role="button" href="p02.html" data-transition="fade">巡检检查</a></li>
+        <li><a data-role="button" href="p03.html" data-transition="pop">参数设置</a></li>
+        <li><a data-role="button" href="p04.html" data-transition="flow">数据下载</a></li>
+        <li><a data-role="button" href="p05.html" data-transition="slidefade">数据上报</a></li>
+        <li><a data-role="button" href="p06.html" data-transition="turn">系统帮助</a></li>
       </ul>
     </div>
     <div id="footer"> 

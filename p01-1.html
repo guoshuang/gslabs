@@ -17,176 +17,80 @@
   </head>
   <body>
     <div data-role="page">
-      <div data-role="header" data-theme="" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="javascript:history.go(-1);">返回</a>
-        <h1>巡检单</h1>
+      <div data-role="header" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="p01.html">返回</a>
+        <h1>机房设备巡检单</h1><a data-role="button" data-icon="plus" data-iconpos="left" href="#1" onclick="save_xunjian()">保存</a>
       </div>
       <div data-role="content" id="main_content">
-        <h2 onclick="alert(3234242)">ERP应用服务器</h2>
-        <ul class="pList"> 
+        <div style="text-align:right;color:#666">巡检人  2013-05-15</div>
+        <div id="filter"> <span class="fleft"> 
+            <input type="checkbox" id="searchFilter" name="searchFilter" data-mini="true">
+            <label for="searchFilter">仅显示异常</label></span><span style="width:8em" class="fright">
+            <input type="search" data-mini="true"></span>
+          <div class="clear"></div>
+        </div>
+        <h3>ERP应用服务器</h3>
+        <ul data-role="listview">
           <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
+            <div>
+              <div style="padding-top:0.7em" class="fleft">服务状态</div>
+              <div class="fright"> 
+                <div class="fleft">
+                  <select data-role="slider" data-mini="true">
+                    <option>正常</option>
+                    <option>异常</option>
+                  </select>
+                </div>
+                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
+              </div>
+              <div class="clear"></div>
             </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
           </li>
           <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
+            <div>
+              <div style="padding-top:0.7em" class="fleft">服务状态</div>
+              <div class="fright"> 
+                <div class="fleft">
+                  <select data-role="slider" data-mini="true">
+                    <option>正常</option>
+                    <option>异常</option>
+                  </select>
+                </div>
+                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
+              </div>
+              <div class="clear"></div>
             </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
           </li>
           <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
+            <div>
+              <div style="padding-top:0.7em" class="fleft">服务状态</div>
+              <div class="fright"> 
+                <div class="fleft">
+                  <select data-role="slider" data-mini="true">
+                    <option>正常</option>
+                    <option>异常</option>
+                  </select>
+                </div>
+                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
+              </div>
+              <div class="clear"></div>
             </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
           </li>
           <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
+            <div>
+              <div style="padding-top:0.7em" class="fleft">服务状态</div>
+              <div class="fright"> 
+                <div class="fleft">
+                  <select data-role="slider" data-mini="true">
+                    <option>正常</option>
+                    <option>异常</option>
+                  </select>
+                </div>
+                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
+              </div>
+              <div class="clear"></div>
             </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
-          </li>
-          <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
-            </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
-          </li>
-          <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
-            </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
-          </li>
-          <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
-            </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
-          </li>
-          <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
-            </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
-          </li>
-          <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
-            </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
-          </li>
-          <li>
-            <div class="fl">服务状态						</div>
-            <div class="fr"> <a href="javascript:void(0);" class="camera"></a></div>
-            <div class="fr">							 
-              <fieldset data-mini="true" data-role="controlgroup" data-type="horizontal">									
-                <input name="a" id="a" type="radio" value="1">
-                <label for="a">正常</label>
-                <input name="a" id="b" type="radio" value="0">
-                <label for="b">异常</label>
-              </fieldset>
-            </div>
-            <div style="display:none;" class="desc">
-              <textarea> </textarea>
-            </div>
-            <div class="photos"> <img style="width:30px;height:30px;background:red;"></div>
           </li>
         </ul>
-      </div>
-      <div id="footer"> 
-        <div class="copy">2013 <sup>&copy;</sup>陕西瑞易信息科技</div>
       </div>
     </div>
   </body>

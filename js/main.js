@@ -1,13 +1,27 @@
 //登录检查
 function check_login(){
- 	var usr=$('#login_name').val();
-	var pwd=$('#login_pwd').val();
-	// 检查用户权限
-	if(usr===''||pwd===''){
-		$.mobile.changePage('login_error.html', 'pop', true, true);
-		return false;
-	}
+ // 	var usr=$('#login_name').val();
+	// var pwd=$('#login_pwd').val();
+	// // 检查用户权限
+	// if(usr===''||pwd===''){
+	// 	$.mobile.changePage('login_error.html', 'pop', true, true);
+	// 	return false;
+	// }
+	return true;
 }
+
+function save_desc(){
+	alert('保存备注！')	
+}
+
+function save_xunjian(){
+	alert('保存巡检单！')	
+}
+
+function upgrade_data(){
+	alert('更新数据！')	
+}
+
 
 $(document).on("pageinit", function(){
 	//console.log('pageinit')
@@ -17,22 +31,22 @@ $(document).on("pageinit", function(){
 jQuery(function($){
 //////////////////////
 
-$('table.gtb tr').click(function(){
-	//console.log($(this).attr('data-id'))
-	location='p02.html';
-})
+// $('table.gtb tr').click(function(){
+// 	//console.log($(this).attr('data-id'))
+// 	location='p02.html';
+// })
 
-$("input[type='radio']").change(function(){
-	// console.log($(this).prop('checked'))
-	//if($(this).val())
-	//alert(111)
-	var obj=$(this).parents('li').find('.desc');
-	if($(this).val()==='1'){
-		obj.hide();
-	}else{
-		obj.show();
-	}
-})
+// $("input[type='radio']").change(function(){
+// 	// console.log($(this).prop('checked'))
+// 	//if($(this).val())
+// 	//alert(111)
+// 	var obj=$(this).parents('li').find('.desc');
+// 	if($(this).val()==='1'){
+// 		obj.hide();
+// 	}else{
+// 		obj.show();
+// 	}
+// })
 
 //////////////////////
 })

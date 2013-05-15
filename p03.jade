@@ -1,36 +1,40 @@
-!!! 5
-html(lang='zh-CN')
-	head
-		include head
-		script(type='text/javascript', src='/js/portal.js')
-	body
-		div(data-role="page")
-			div(data-role="header",data-theme="",data-position="fixed")
-				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="javascript:history.go(-1);") 返回
-				h1 巡检单
-			div(data-role="content",id="main_content")
-				table.xunjian(width="100%")
-					tbody
-						tr
-							td.t(colspan="4") ERP应用服务器
-						tr
-							td 服务状态
-							td
-								nobr
-									fieldset(data-mini="true",data-role="controlgroup",data-type="horizontal")
-									
-										input(name="a",id="a",type="radio",checked="on")
-										label(for="a") 正常
-										input(name="a",id="b",type="radio")
-										label(for="b") 异常
-							td(width="40")
-								input.fullWidth(data-mini="true")
-							td
-								a.camera(href="javascript:void(0);") 12
-						
+include head
+body#page_p03
+	div(data-role="page")
+		div(data-role="header",data-position="fixed")
+			a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
+			h1 参数设置
+			a(data-role="button",data-icon="plus",data-iconpos="left",href="#1",onclick="") 保存
+		div(data-role="content")
+			
+			h3 采集服务器
+							
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") ip： 
+			div(style="display:inline-block;width:75%")
+				input(data-mini="true")
 
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") 端口： 
+			div(style="display:inline-block;width:75%")
+				input(data-mini="true")
 
-			include foot
+			h3 网络状态
+
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") 联机： 
+			div(style="display:inline-block;width:75%") 未联机
+			
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") 类型： 
+			div(style="display:inline-block;width:75%") wifi
+
+			h3 移动终端
+
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") 类型： 
+			div(style="display:inline-block;width:75%") htc-g10
+
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") 标识码： 
+			div(style="display:inline-block;width:75%") adb-323232-xxssd
+
+			label(style="line-height:30px;width:4em;text-align:right;display:inline-block;width:20%;") ip： 
+			div(style="display:inline-block;width:75%") 192.168.1.15
 
 
 
