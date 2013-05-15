@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"data-icon",
+				"data-iconpos"
+			],
+			[
+				"dat",
+				"data-iconpos"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -323,7 +331,7 @@
 				"Set Syntax: Markdown"
 			]
 		],
-		"width": 435.0
+		"width": 417.0
 	},
 	"console":
 	{
@@ -340,18 +348,30 @@
 	},
 	"file_history":
 	[
-		"/Users/david/Desktop/mobile-skynet/p01.jade",
-		"/Users/david/Desktop/mobile-skynet/p02.jade",
-		"/Users/david/Desktop/mobile-skynet/p03.jade",
-		"/Users/david/Desktop/mobile-skynet/head.jade",
-		"/Users/david/Desktop/mobile-skynet/index.jade",
 		"/Users/david/Desktop/mobile-skynet/css/main.less",
+		"/Users/david/Desktop/mobile-skynet/js/global.js",
+		"/Users/david/Desktop/mobile-skynet/js/main.js",
+		"/Users/david/Desktop/mobile-skynet/head.jade",
+		"/Users/david/Desktop/mobile-skynet/p05.html",
+		"/Users/david/Desktop/mobile-skynet/p02.jade",
+		"/Users/david/Desktop/mobile-skynet/p05.jade",
 		"/Users/david/Desktop/mobile-skynet/portal.jade",
-		"/Users/david/Desktop/mobile-skynet/js/p01.js",
+		"/Users/david/Desktop/mobile-skynet/index.jade",
+		"/Users/david/Desktop/mobile-skynet/p01.jade",
+		"/Users/david/Desktop/mobile-skynet/foot.jade",
+		"/Users/david/Desktop/mobile-skynet/login_error.jade",
+		"/Users/david/Desktop/mobile-skynet/README.md",
+		"/Users/david/Desktop/mobile-skynet/var.jade",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/Users/david/Desktop/mobile-skynet/mobile.sublime-project",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
 		"/Users/david/Desktop/mobile-skynet/js/p02.js",
+		"/Users/david/Desktop/mobile-skynet/index.html",
+		"/Users/david/Desktop/mobile-skynet/p03.jade",
+		"/Users/david/Desktop/mobile-skynet/js/p01.js",
 		"/Users/david/Desktop/mobile-skynet/js/portal.js",
 		"/Users/david/Desktop/mobile-skynet/css/themes/default/jquery.mobile.theme-1.3.1.min.css",
-		"/Users/david/Desktop/mobile-skynet/foot.jade",
 		"/Users/david/Library/Application Support/Sublime Text 2/Packages/LESS-build/readme.md",
 		"/Users/david/Desktop/mobile-skynet/p01.html",
 		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/jade.sublime-build",
@@ -359,7 +379,6 @@
 		"/Users/david/Desktop/mobile-skynet/p02.html",
 		"/Users/david/Desktop/mobile-skynet/css/main.css",
 		"/Users/david/Desktop/mobile-skynet/css/themes/default/jquery.mobile-1.3.1.min.css",
-		"/Users/david/Desktop/mobile-skynet/index.html",
 		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/jade.sublime-settings",
 		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Jade/Commands/Render.tmCommand",
@@ -402,7 +421,6 @@
 		"/Users/david/bin/subl",
 		"/Users/david/hexo/tt4/source/_posts/css/less.md",
 		"/Users/david/hexo/tt4/source/labs/111111111.less",
-		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/david/Desktop/less-test/1.css",
 		"/Users/david/hexo/tt4/source/_posts/frontend/npm-g.md",
 		"/Users/david/hexo/tt4/source/_posts/software/git-ignore.md",
@@ -457,17 +475,7 @@
 		"/Users/david/hexo/tt4/source/labs/css-attr.htm",
 		"/Users/david/hexo/tt4/source/_posts/css/css-attr.md",
 		"/Users/david/hexo/tt4/source/_posts/frontend/prettify-guoshuang.md",
-		"/Users/david/hexo/tt4/source/tools/index.md",
-		"/Users/david/hexo/tt4/source/_posts/net/check-broken-links.md",
-		"/Users/david/hexo/tt4/source/_posts/net/cdn.md",
-		"/Users/david/hexo/tt4/source/_posts/frontend/prettify强制不换行.md",
-		"/Users/david/hexo/tt4/source/_posts/frontend/ie5-view-popular-sites.md",
-		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-favicon.md",
-		"/Users/david/hexo/tt4/source/_posts/hexo/hexo-quick-publish.md",
-		"/Users/david/hexo/tt4/source/_posts/javascript/baranovskiy-quiz.md",
-		"/Users/david/hexo/tt4/source/_posts/software/sublime 使用技巧.md",
-		"/Users/david/hexo/tt4/source/_posts/software/sublime-folder_exclude_patterns.md",
-		"/Users/david/hexo/tt4/source/_posts/net/git-size-ignore.md"
+		"/Users/david/hexo/tt4/source/tools/index.md"
 	],
 	"find":
 	{
@@ -512,6 +520,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"i",
+			"checked=\"checked\"",
+			"=\"radio\"",
+			" ",
+			"//-",
+			"page.",
+			"page",
+			"Page",
+			"page",
+			": ",
+			"prototype.options.",
+			"$.mobile",
 			"60px",
 			"35em",
 			".ui-responsive",
@@ -627,19 +647,7 @@
 			"<script ",
 			"</textarea>",
 			"<textarea class=\"copycode\" onclick=\"this.select();\">",
-			"</td>",
-			"<td>",
-			"200",
-			"stripedTb",
-			"#nthExample",
-			"li",
-			"p",
-			"th",
-			"thead",
-			"p",
-			"span",
-			"console_command",
-			"      "
+			"</td>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -647,6 +655,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
 			"\\t",
 			"- \\1\\*\\*\\2\\*\\*",
 			"- \\1\\*\\2\\*",
@@ -780,6 +789,46 @@
 		"selected_items":
 		[
 			[
+				"read",
+				"README.md"
+			],
+			[
+				"main",
+				"css/main.less"
+			],
+			[
+				"foo",
+				"foot.jade"
+			],
+			[
+				"po",
+				"portal.jade"
+			],
+			[
+				"head",
+				"head.jade"
+			],
+			[
+				"por",
+				"portal.jade"
+			],
+			[
+				"p02",
+				"p02.jade"
+			],
+			[
+				"p01",
+				"p01.jade"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				".les",
+				"css/main.less"
+			],
+			[
 				"m",
 				"css/themes/default/jquery.mobile.theme-1.3.1.min.css"
 			],
@@ -788,28 +837,12 @@
 				"index.jade"
 			],
 			[
-				"p01",
-				"js/p01.js"
-			],
-			[
 				"he",
 				"head.jade"
 			],
 			[
-				"head",
-				"head.jade"
-			],
-			[
-				"main",
-				"css/main.less"
-			],
-			[
 				"p0",
 				"p02.html"
-			],
-			[
-				"po",
-				"portal.jade"
 			],
 			[
 				"sublime-",
@@ -1068,10 +1101,6 @@
 				"source/_posts/javascript/javascript-clone-array.md"
 			],
 			[
-				"foo",
-				"themes/guoshuang/layout/_partial/after_footer.ejs"
-			],
-			[
 				"my",
 				"source/_posts/生活/music-in_my_secret_life.md"
 			],
@@ -1270,26 +1299,6 @@
 			[
 				"chr",
 				"source/_posts/前端技术/chrome-console-command.md"
-			],
-			[
-				"fun",
-				"source/_posts/javascript/javascript-fun.md"
-			],
-			[
-				"baranovskiy-quiz",
-				"source/_posts/javascript/baranovskiy-quiz.md"
-			],
-			[
-				"regp",
-				"source/_posts/前端技术/regular-expression.md"
-			],
-			[
-				"index",
-				"public/index.html"
-			],
-			[
-				"sub",
-				"source/_posts/软件/sublime 使用技巧.md"
 			]
 		],
 		"width": 0.0
@@ -1309,7 +1318,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 199.0,
+	"side_bar_visible": false,
+	"side_bar_width": 264.0,
 	"status_bar_visible": true
 }

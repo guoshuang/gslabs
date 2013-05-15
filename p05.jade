@@ -1,0 +1,26 @@
+include head
+body#page_p05
+	div(data-role="page")
+		div(data-role="header",data-position="fixed")
+			a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
+			h1 数据上报
+		div(data-role="content")
+
+			fieldset(data-role="controlgroup")
+				-for(i=1;i<5;i++){
+				input(type="checkbox",data-iconpos="right",name="radio-choice-#{i}",id="radio-choice-#{i}",value="0001")
+				label(for="radio-choice-#{i}")  
+					span(style="font-size:1.2em") 1#{i}:00
+					span(style="display:inline-block;margin-left:1em;") 灾备中心机房
+				-}
+				//- li(data-icon="arrow-r")
+				//- 	input(type="checkbox",id="check-a",name="check-a",data-iconpos="right")
+				//- 	label(for="check-a") 111
+				//- li(data-icon="arrow-r")
+				//- 	input(type="checkbox",id="check-b",name="check-b",data-iconpos="right")
+				//- 	label(for="check-b") 1122221
+			
+			div.op
+				a(data-role="button",data-inline="true",data-icon="check") 保存并上传到服务器
+		//- include foot
+

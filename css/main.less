@@ -1,4 +1,4 @@
-///*全局变量*/
+//-全局变量
 @text_link:#06c;
 @text_meta:#999;
 @text_meta-black:#666;
@@ -8,6 +8,7 @@
 @blue:#003b94;
 @device_screen_width:400px;
 
+//-全局函数
 .round(@r:100%){
 	-webkit-border-radius:@r;
 	-moz-border-radius:@r;
@@ -33,7 +34,18 @@
   background-image:linear-gradient(@gra);
 }
 
-/*样式内容*/
+
+//样式表内容
+
+.fleft {float:left;}
+.fright {float:right;}
+.clear {clear: both;}
+.mleft1 {margin-left:1em;}
+
+//chage close button 2 right
+.ui-dialog .ui-header .ui-btn-left { left: auto; right: 10px; }
+
+.error {color:#c00;}
 
 //关掉 jquery mobile 过场动画 http://jquerymobile.com/demos/1.2.0/docs/pages/page-transitions.html
 .ui-page { -webkit-backface-visibility: hidden; }

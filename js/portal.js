@@ -1,2 +1,0 @@
-$.mobile.transitionFallbacks.slideout = "none"
-

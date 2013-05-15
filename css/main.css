@@ -1,4 +1,22 @@
-/*样式内容*/
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.mleft1 {
+  margin-left: 1em;
+}
+.ui-dialog .ui-header .ui-btn-left {
+  left: auto;
+  right: 10px;
+}
+.error {
+  color: #c00;
+}
 .ui-page {
   -webkit-backface-visibility: hidden;
 }

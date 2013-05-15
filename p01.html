@@ -6,54 +6,64 @@
     <title>移动巡检系统客户端</title>
     <link rel="stylesheet" href="/css/themes/default/jquery.mobile-1.3.1.min.css">
     <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/global.js"></script>
     <script type="text/javascript" src="/js/jquery.mobile-1.3.1.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
     <link rel="stylesheet" href="/css/main.css">
-    <script type="text/javascript" src="/js/p01.js"></script>
   </head>
-  <body>
-    <div data-role="page">
-      <div data-role="header" data-theme="" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="javascript:history.go(-1);">返回</a>
-        <h1>今日巡检</h1>
-      </div>
-      <div id="main_content" data-role="content">
-        <table data-role="table" class="gtb">
-          <thead>
-            <tr>
-              <th>编号</th>
-              <th>巡检人</th>
-              <th>时间</th>
-              <th>标题</th>
-              <th>状态</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr data-id='123' class="click">
-              <td>04-12-01</td>
-              <td>张三</td>
-              <td>10:00</td>
-              <td>灾备中心机房</td>
-              <td>已经完成</td>
-            </tr>
-            <tr>
-              <td>04-12-01</td>
-              <td>张三</td>
-              <td>10:00</td>
-              <td>灾备中心机房</td>
-              <td>已完成</td>
-            </tr>
-            <tr>
-              <td>04-12-01</td>
-              <td>张三</td>
-              <td>10:00</td>
-              <td>灾备中心机房</td>
-              <td>已经完成</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div id="footer" data-role="footer" data-position="fixed"> 
-        <div class="copy">陕西瑞易信息科技</div>
-      </div>
-    </div>
-  </body>
 </html>
+<body id="page_p01">
+  <div data-role="page">
+    <div data-role="header" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="portal.html">返回</a>
+      <h1>今日巡检</h1>
+    </div>
+    <div data-role="content">
+      <ul data-role="listview">
+        <li> <a href="p01-1.html">
+            <div style="font-size:0.9em;color:#666;">
+              <div class="fleft">编号：20130515-1</div>
+              <div class="fright">巡检人：张安</div>
+              <div class="clear"></div>
+            </div>
+            <div style="margin-top:1em;">
+              <div class="fleft">10:00</div>
+              <div class="fleft mleft1">灾备中心机房</div>
+              <div class="fleft mleft1 error">未进行</div>
+            </div></a></li>
+        <li> <a href="p01-1.html">
+            <div style="font-size:0.9em;color:#666;">
+              <div class="fleft">编号：20130515-2</div>
+              <div class="fright">巡检人：张安</div>
+              <div class="clear"></div>
+            </div>
+            <div style="margin-top:1em;">
+              <div class="fleft">10:00</div>
+              <div class="fleft mleft1">灾备中心机房</div>
+              <div class="fleft mleft1 error">未进行</div>
+            </div></a></li>
+        <li> <a href="p01-1.html">
+            <div style="font-size:0.9em;color:#666;">
+              <div class="fleft">编号：20130515-3</div>
+              <div class="fright">巡检人：张安</div>
+              <div class="clear"></div>
+            </div>
+            <div style="margin-top:1em;">
+              <div class="fleft">10:00</div>
+              <div class="fleft mleft1">灾备中心机房</div>
+              <div class="fleft mleft1 error">未进行</div>
+            </div></a></li>
+        <li> <a href="p01-1.html">
+            <div style="font-size:0.9em;color:#666;">
+              <div class="fleft">编号：20130515-4</div>
+              <div class="fright">巡检人：张安</div>
+              <div class="clear"></div>
+            </div>
+            <div style="margin-top:1em;">
+              <div class="fleft">10:00</div>
+              <div class="fleft mleft1">灾备中心机房</div>
+              <div class="fleft mleft1 error">未进行</div>
+            </div></a></li>
+      </ul>
+    </div>
+  </div>
+</body>

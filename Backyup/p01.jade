@@ -1,0 +1,43 @@
+!!! 5
+html(lang='zh-CN')
+	head
+		include head
+	body
+		div(data-role="page")
+			div(data-role="header",data-position="fixed")
+				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
+				h1 今日巡检
+			#main_content(data-role="content")
+				table.gtb(data-role="table")
+					thead
+						tr
+							th 编号
+							th 巡检人
+							th 时间
+							th 标题
+							th 状态
+					tbody
+						tr.click(data-id=123)
+							td 04-12-01
+							td 张三
+							td 10:00
+							td 灾备中心机房
+							td 已经完成
+						tr.click(data-id=123)
+							td 04-12-01
+							td 张三
+							td 10:00
+							td 灾备中心机房
+							td 已完成
+						tr.click(data-id=123)
+							td 04-12-01
+							td 张三
+							td 10:00
+							td 灾备中心机房
+							td 已经完成
+
+					
+
+			include foot
+
+			

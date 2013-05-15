@@ -1,12 +1,18 @@
 mobile 巡检
 ======
 
+mobile 巡检
+  |-- css
+    |--img
+  |-- js
+  |-- 其它
+
 ## todo list
 
 - 本地非域的 ajax
 - JQM(jquerymobile) 所有 js 需要首页加载
 - 巡检模版渲染 js
-
+- **登录以后的安全有问题！**
 
 ## 文件说明
 
@@ -15,6 +21,7 @@ mobile 巡检
 - server.js  node server.js
 - css  目录中 main.css 和 img 目录为 - customize
 - js main.js - customize
+-  .DS_Store mac 下的系统垃圾文件（类似 windows thumbs.db）
 
 ## 使用说明
 

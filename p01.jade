@@ -1,44 +1,22 @@
-!!! 5
-html(lang='zh-CN')
-	head
-		include head
-		script(type='text/javascript', src='/js/p01.js')
-	body
-		div(data-role="page")
-			div(data-role="header",data-theme="",data-position="fixed")
-				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="javascript:history.go(-1);") 返回
-				h1 今日巡检
-			#main_content(data-role="content")
-				table.gtb(data-role="table")
-					thead
-						tr
-							th 编号
-							th 巡检人
-							th 时间
-							th 标题
-							th 状态
-					tbody
-						tr.click(data-id=123)
-							td 04-12-01
-							td 张三
-							td 10:00
-							td 灾备中心机房
-							td 已经完成
-						tr.click(data-id=123)
-							td 04-12-01
-							td 张三
-							td 10:00
-							td 灾备中心机房
-							td 已完成
-						tr.click(data-id=123)
-							td 04-12-01
-							td 张三
-							td 10:00
-							td 灾备中心机房
-							td 已经完成
-
-					
-
-			include foot
-
+include head
+body#page_p01
+	div(data-role="page")
+		div(data-role="header",data-position="fixed")
+			a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
+			h1 今日巡检
+		div(data-role="content")
 			
+			ul(data-role="listview")
+				-for(i=1;i<5;i++){
+				li 
+					a(href="p01-1.html")
+						div(style='font-size:0.9em;color:#666;')
+							div(class="fleft") 编号：20130515-#{i}
+							div(class="fright") 巡检人：张安
+							div(class="clear")
+						div(style="margin-top:1em;")
+							div(class="fleft") 10:00
+							div(class="fleft mleft1") 灾备中心机房
+							div(class="fleft mleft1 error") 未进行
+				-}
+		
