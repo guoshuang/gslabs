@@ -4,31 +4,66 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>移动巡检系统客户端</title>
-    <link rel="stylesheet" href="/css/themes/default/jquery.mobile-1.3.1.min.css">
+    <link rel="stylesheet" href="jquery-mobile-flat-ui-theme/generated/jquery.mobile.flatui.min.css">
+    <link rel="stylesheet" href="/css/main.css">
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/global.js"></script>
     <script type="text/javascript" src="/js/jquery.mobile-1.3.1.min.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
-    <link rel="stylesheet" href="/css/main.css">
   </head>
 </html>
 <body id="page_p05">
   <div data-role="page">
     <div data-role="header" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="portal.html">返回</a>
-      <h1>数据上报</h1>
+      <h1>数据上报</h1><a data-role="button" data-icon="star" data-iconpos="right">保存</a>
     </div>
     <div data-role="content">
-      <fieldset data-role="controlgroup">
-        <input type="checkbox" data-iconpos="right" name="radio-choice-1" id="radio-choice-1" value="0001">
-        <label for="radio-choice-1"> <span style="font-size:1.2em">11:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
-        <input type="checkbox" data-iconpos="right" name="radio-choice-2" id="radio-choice-2" value="0001">
-        <label for="radio-choice-2"> <span style="font-size:1.2em">12:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
-        <input type="checkbox" data-iconpos="right" name="radio-choice-3" id="radio-choice-3" value="0001">
-        <label for="radio-choice-3"> <span style="font-size:1.2em">13:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
-        <input type="checkbox" data-iconpos="right" name="radio-choice-4" id="radio-choice-4" value="0001">
-        <label for="radio-choice-4"> <span style="font-size:1.2em">14:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
-      </fieldset>
-      <div class="op"><a data-role="button" data-inline="true" data-icon="check">保存并上传到服务器</a></div>
+      <div id="upload_data" data-role="controlgroup">
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-0" id="radio-choice-0" value="1">
+          <label for="radio-choice-0"> <span style="font-size:1.2em">8:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-1" id="radio-choice-1" value="1">
+          <label for="radio-choice-1"> <span style="font-size:1.2em">9:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-2" id="radio-choice-2" value="1">
+          <label for="radio-choice-2"> <span style="font-size:1.2em">10:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-3" id="radio-choice-3" value="1">
+          <label for="radio-choice-3"> <span style="font-size:1.2em">11:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-4" id="radio-choice-4" value="1">
+          <label for="radio-choice-4"> <span style="font-size:1.2em">12:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-5" id="radio-choice-5" value="1">
+          <label for="radio-choice-5"> <span style="font-size:1.2em">13:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-6" id="radio-choice-6" value="1">
+          <label for="radio-choice-6"> <span style="font-size:1.2em">14:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-7" id="radio-choice-7" value="1">
+          <label for="radio-choice-7"> <span style="font-size:1.2em">15:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-8" id="radio-choice-8" value="1">
+          <label for="radio-choice-8"> <span style="font-size:1.2em">16:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-9" id="radio-choice-9" value="1">
+          <label for="radio-choice-9"> <span style="font-size:1.2em">17:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+        <li>
+          <input checked="checked" type="checkbox" data-iconpos="right" name="radio-choice-10" id="radio-choice-10" value="1">
+          <label for="radio-choice-10"> <span style="font-size:1.2em">18:00</span><span style="display:inline-block;margin-left:1em;">灾备中心机房</span></label>
+        </li>
+      </div>
     </div>
   </div>
 </body>

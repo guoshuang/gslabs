@@ -1,24 +1,36 @@
 include head
-body#page_portal
+body.page_portal
 	div(data-role="page")
 		div(data-role="header",data-position="fixed")
-			a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="index.html",onclick="return window.confirm('你确认要退出登录吗？')") 返回
+			a(data-iconpos="notext",data-role="button",data-icon="home",href="index.html",onclick="return window.confirm('你确认要退出登录吗？')") 返回
 			h1 移动巡检系统客户端
 		div(data-role="content")
-			ul(id="portal")
+			//- style #portal_ul li a {color:green;} #portal_ul li a span {padding:0}
+			ul#portal_ul
 				li
-					a(data-role="button",href="p01.html") 今日巡检
+					a(data-role="button",href="p01.html",data-transition="slide",data-theme="y",data-icon="flat-time") 今日巡检
 				li
-					a(data-role="button",href="p02.html",data-transition="fade") 巡检检查
+					a(data-role="button",href="p02.html",data-transition="fade",data-theme="y",data-icon="flat-man") 巡检检查
 				li
-					a(data-role="button",href="p03.html",data-transition="pop") 参数设置
+					a(data-role="button",href="p03.html",data-transition="pop",data-theme="y",data-icon="flat-settings") 参数设置
 				li
-					a(data-role="button",href="p04.html",data-transition="flow") 数据下载
+					a(data-role="button",href="p04.html",data-transition="flow",data-theme="y",data-icon="flat-location") 数据下载
 				li
-					a(data-role="button",href="p05.html",data-transition="slidefade") 数据上报
+					a(data-role="button",href="p05.html",data-transition="slidefade",data-theme="y",data-icon="flat-plus") 数据上报
 				li
-					a(data-role="button",href="p06.html",data-transition="turn") 系统帮助
-		
+					a(data-role="button",href="p06.html",data-transition="turn",data-theme="y",data-icon="gs-help") 系统帮助
+
+			
+			script
+			-var oTrans='fade | flip | flow | pop | slide | slidedown | slidefade | slideup | turn | none'.split(' | ');
+			-console.log(oTrans[Math.floor(Math.random()*oTrans.length)]);
+			style ul#gtest li {display:inline-block}
+			ul#gtest()
+				li
+					a(data-role="button",href="test1.html",data-transition="#{oTrans[Math.floor(Math.random()*oTrans.length)]}") 测试 ajax 加载
+				li
+					a(data-role="button",href="test2.html",data-transition="#{oTrans[Math.floor(Math.random()*oTrans.length)]}",data-ajax="false") 普通加载
+
 		include foot
 
 			

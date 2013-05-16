@@ -1,15 +1,19 @@
 include head
-body#page_p01
+body
 	div(data-role="page")
 		div(data-role="header",data-position="fixed")
 			a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
-			h1 今日巡检
-			a(data-role="button",data-icon="refresh",data-iconpos="left",onclick="upgrade_data();") 更新
+			h1 数据下载
+			a(data-role="button",data-icon="refresh",data-iconpos="right",onclick="upgrade_data();") 更新
 		div(data-role="content")
-			div(style="text-align:right;color:#666") 更新了5条数据
-			h2 巡检单模版
-			div
-				ol(data-role="listview")
-					-for(i=1;i<5;i++){
-					li ERP 系统巡检单  V2
-					-}
+			div#upgrade_div
+				div(style="text-align:right;color:#666") 更新了5条数据
+				h2 巡检单模版
+				div
+					ol(data-role="listview")
+						-for(i=1;i<5;i++){
+						li ERP 系统巡检单  V2
+						-}
+
+			div#info(style="padding-top:1em;color:green",class="clear")
+				p 1112

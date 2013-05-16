@@ -2,11 +2,12 @@
 @text_link:#06c;
 @text_meta:#999;
 @text_meta-black:#666;
-@text_size_small:12px;
-@text_size:14px;
-@text_size_large:16px;
+@text_size_small:12dppx;
+@text_size:14dppx;
+@text_size_large:16dppx;
 @blue:#003b94;
-@device_screen_width:400px;
+@device_screen_width:400dppx;
+@color-alert:#c1392b;
 
 //-全局函数
 .round(@r:100%){
@@ -36,61 +37,96 @@
 
 
 //样式表内容
-
-.fleft {float:left;}
-.fright {float:right;}
-.clear {clear: both;}
-.mleft1 {margin-left:1em;}
+a {text-decoration: none;}
+.clear {clear:both;}
+h1 {text-shadow:-1px -1px 0 #333;}
 
 //chage close button 2 right
-.ui-dialog .ui-header .ui-btn-left { left: auto; right: 10px; }
+.ui-dialog .ui-header .ui-btn-left { left: auto; right: 10dppx; }
 
 .error {color:#c00;}
 
-//关掉 jquery mobile 过场动画 http://jquerymobile.com/demos/1.2.0/docs/pages/page-transitions.html
-.ui-page { -webkit-backface-visibility: hidden; }
-
-#portal {
+//portal
+#portal_ul {
 	list-style: none;
-	text-align: center;
 	margin:0;
 	padding:0;
+	text-align: center;
 	li {
-		display: inline-block;
-		width:8em;
-	}
-	/*li {
-		margin:0;
-		padding:0;
-		display: inline-block;
-		width:100px;
-		height:100px;
-		line-height:100px;
-		text-overflow:normal;
-		background-color:@blue;
 		text-align: center;
-		vertical-align: middle;
-		margin: 20px;
-		color:#fff;
-		.round();
-		.text_shadow();
-		.line_gradient(top,rgba(255,255,255,.3),rgba(255,255,255,0));
-		.box_shadow(2px 2px 5px #666);
-		cursor: pointer;
-		
-		span {
-			padding:0;
-			text-overflow:clip;
-		}
-
-
-	}
-	*/
+		display: inline-block;
+		margin:0 0.5em;
+	}	
 }
 
+//page_p01
+#xunjian {
+	li {
+		margin-top:5px;
+		.l1 {
+			opacity: 0.5;
+			font-size: 0.8em;
+			.l {float: left;}
+			.r {float: right;}
+		}
+		.l2{
+			padding-top: 0.5em;
+			.d1 {font-style: italic;}
+			.d1,.d2 {float: left;margin-right:0.5em;font-size: 1.2em;}
+			.d3 {float:right;font-size:1em;}
+		}
+	}
+}
+
+//page_p01-1
+#cunjianren,#cunjianren_ul{
+	.l {float: left;}
+	.r {float: right;}
+}
+#cunjianren_ul{
+	li {
+		margin-top:3px;
+	}
+	div.l {
+		line-height: 40px
+	}
+	a.i {
+		vertical-align: top;
+		margin-top:6px;
+		margin-left:0.5em;
+	}
+	.ui-slider-label-a {color:#c00;font-size:16px;}
+	.ui-slider-label-b {color:#015346;}
+}
+
+//
+#upgrade_div {
+	li {
+		margin-top:4px;
+	}
+}
+
+//#upload_data
+#upload_data {
+	li{
+		margin-top:4px;
+	}
+}
+
+//#xunjian_total
+
+#xunjian_total {
+	li {
+		margin-top:4px;
+	}
+	.l {
+		float: left;
+		line-height:40px;
+	}
+	.r {float:right;}
+}
 
 /*jmobile 是 18 36*/
-
 
 .fullWidth {
 	width: 100%;
@@ -98,10 +134,10 @@
 
 table.xunjian {
 	td {
-		font-size:14px;
+		font-size:14dppx;
 	}
 	td.t {
-		font-size:16px;
+		font-size:16dppx;
 	}
 }
 
@@ -190,12 +226,12 @@ ul.pList {
 	}	
 }
 
-.camera {
+/*.camera {
 	width:36px;
 	height:36px;
 	display: inline-block;
 	background: url(img/camera.png) center center no-repeat;
 	text-indent: -9999px;
-}
+}*/
 
 

@@ -1,0 +1,55 @@
+{
+	"total":35,
+	"items":[
+		{
+			"h":"机房巡检单模版",
+			"templates":[
+				{
+					"num":"1231-05-13",
+					"person":"li si",
+					"time":"10:00",
+					"title":"zai bei zhong xin jifang",
+					"status":"pending",
+					"ver":"1.2"
+				},
+				{
+					"num":"34343-05-13",
+					"person":"li si",
+					"time":"12:00",
+					"title":"某某服务器检查",
+					"status":"pending",
+					"ver":"1.2"
+				},
+				{
+					"num":"6666-05-13",
+					"person":"li si",
+					"time":"12:00",
+					"title":"WWW 服务器检查",
+					"status":"pending",
+					"ver":"0.6"
+				}
+			]
+		},
+		{
+			"h":"ERP服务器巡检单模版",
+			"templates":[
+				{
+					"num":"1231-05-13",
+					"person":"li si",
+					"time":"10:00",
+					"title":"zai bei zhong xin jifang",
+					"status":"pending",
+					"ver":"1.2"
+				},
+				{
+					"num":"34343-05-13",
+					"person":"li si",
+					"time":"12:00",
+					"title":"某某服务器检查",
+					"status":"pending",
+					"ver":"1.2"
+				}
+			]
+		}
+	]
+}

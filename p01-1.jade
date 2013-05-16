@@ -2,40 +2,36 @@
 html(lang='zh-CN')
 	head
 		include head
-	body
+	body#page_p01-1
 		div(data-role="page")
 			div(data-role="header",data-position="fixed")
 				a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="p01.html") 返回
 				h1 机房设备巡检单
-				a(data-role="button",data-icon="plus",data-iconpos="left",href="#1",onclick="save_xunjian()") 保存
+				a(data-role="button",data-icon="star",data-iconpos="right",href="#1",onclick="save_xunjian()") 保存
 			div(data-role="content",id="main_content")
 				
-				div(style="text-align:right;color:#666") 巡检人  2013-05-15
-				div#filter 
-					span(class="fleft") 
-						input(type="checkbox",id="searchFilter",name="searchFilter",data-mini="true")
-						label(for="searchFilter") 仅显示异常
-					span(class="fright",style="width:8em")
-						input(type="search",data-mini="true")
-					div.clear
-
+				div#cunjianren
+					div.l 巡检人 2013-05-15
+					div.r 
+						input(type="checkbox",id="searchFilter",name="searchFilter",data-mini="true",data-theme="c")
+						label(for="searchFilter",data-theme="c") 仅显示异常
+				div.filter(data-role="fieldcontain") 
+					input(type="search",data-mini="true")
 
 				h3 ERP应用服务器
-				ul(data-role="listview")
+				ul#cunjianren_ul(data-role="listview")
 					-for(i=1;i<5;i++){
 					li
-						div()
-							div(class="fleft",style="padding-top:0.7em") 服务状态
-							div(class="fright") 
-								div(class="fleft")
-									select(data-role="slider",data-mini="true")
-										option 正常
-										option 异常
-								div(class="fright",style="padding-left:0.6em")
-									a(data-role="button",data-mini="true",data-inline="true",data-icon="info",data-iconpos="notext",href="desc.html",data-rel="dialog",data-transition="slidedown") 备注
-									a(data-role="button",data-mini="true",data-inline="true",data-icon="star",data-iconpos="notext") 拍照 
-									span(style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;") 0
-							div.clear
+						div.l 服务状态
+						div.r
+							div.s
+							select(data-role="slider",data-theme="b",data-mini="true")
+								option 正常
+								option 异常
+							a.i(data-role="button",data-mini="true",data-inline="true",data-icon="flat-new",,data-theme="b",data-iconpos="notext",href="desc.html",data-rel="dialog",data-transition="none") 备注
+							a.i(data-role="button",data-mini="true",data-inline="true",data-icon="flat-camera",data-theme="b",data-iconpos="notext") 拍照 
+						div.clear
+
 						
 					-}
 

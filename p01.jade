@@ -6,17 +6,24 @@ body#page_p01
 			h1 今日巡检
 		div(data-role="content")
 			
-			ul(data-role="listview")
+			ul#xunjian(data-role="listview",data-theme="y")
 				-for(i=1;i<5;i++){
-				li 
+				li
 					a(href="p01-1.html")
-						div(style='font-size:0.9em;color:#666;')
-							div(class="fleft") 编号：20130515-#{i}
-							div(class="fright") 巡检人：张安
-							div(class="clear")
-						div(style="margin-top:1em;")
-							div(class="fleft") 10:00
-							div(class="fleft mleft1") 灾备中心机房
-							div(class="fleft mleft1 error") 未进行
+						div.l1
+							div.l 编号：20130515-#{i}
+							div.r 巡检人：张安
+						div.l2.clear
+							div.d1 10:00
+							div.d2 灾备中心机房
+							div.d3 已完成
 				-}
-		
+				li.pending(data-theme="d")
+					a(href="p01-1.html")
+						div.l1
+							div.l 编号：20130515-#{i}
+							div.r 巡检人：张安
+						div.l2.clear
+							div.d1 10:00
+							div.d2 灾备中心机房
+							div.d3 未进行

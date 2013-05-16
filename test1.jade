@@ -1,0 +1,24 @@
+include head
+body#page_test
+	div(data-role="page")
+		div(data-role="header",data-position="fixed")
+			a(data-role="button",data-icon="arrow-l",data-iconpos="left",href="portal.html") 返回
+			h1 移动巡检系统客户端
+		div(data-role="content")
+			div#test1 content will be here
+
+			script(src="test1.js")
+			script
+
+				console.log('inline test1.js')
+				$.ajax({
+					url:'data.json',
+					success:function(d){
+						var d=$.parseJSON(d);
+						console.log(d)
+						$('#test1').html('用户名：'+d.users[0].u)
+					}
+					})
+				//console.log($)
+
+				

@@ -28,43 +28,24 @@ html(lang='zh-CN')
 							option 两周
 							option 一个月
 
-
-							
-				div#filter2
-					
-
-
 				h3 ERP应用服务器
-				ul(data-role="listview")
+				ul#xunjian_total(data-role="listview")
 					-for(i=1;i<5;i++){
 					li
-						div()
-							div(class="fleft",style="padding-top:0.7em") 服务状态 #{i}
-							div(class="fright") 
-								div(class="fleft")
-									select(data-role="slider",data-mini="true")
-										option 正常
-										option 异常
-								div(class="fright",style="padding-left:0.6em")
-									a(data-role="button",data-mini="true",data-inline="true",data-icon="info",data-iconpos="notext",href="desc.html",data-rel="dialog",data-transition="slidedown") 备注
-									a(data-role="button",data-mini="true",data-inline="true",data-icon="star",data-iconpos="notext") 拍照 
-									span(style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;") 0
-							div.clear
-						
+						div.l 服务状态 #{i}
+						div.r 
+							strong 正常
+							a(data-role="button",data-mini="true",data-inline="true",data-icon="info",data-iconpos="notext",href="desc.html",data-rel="dialog",data-transition="none") 备注
+							a(data-role="button",data-mini="true",data-inline="true",data-icon="star",data-iconpos="notext") 拍照 
+						div.clear
 					-}
-			//- div(style="position:fixed;bottom:0;width:100%;z-index:9999;")
-			//- 	div(data-role="navbar")
-			//- 		ul#gDate
-			//- 			li
-			//- 				a.ui-btn-active 今天
-			//- 			li
-			//- 				a 昨天
-			//- 			li
-			//- 				a 前天
-			//- 			li
-			//- 				a 大前天
-			//- 			li
-			//- 				a &gt;
+					li(data-theme="d")
+						div.l 服务状态 #{i}
+						div.r 
+							strong 异常
+							a(data-role="button",data-mini="true",data-inline="true",data-icon="info",data-iconpos="notext",href="desc.html",data-rel="dialog",data-transition="none") 备注
+							a(data-role="button",data-mini="true",data-inline="true",data-icon="star",data-iconpos="notext") 拍照 
+						div.clear
 
 
 

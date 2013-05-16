@@ -6,89 +6,76 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>移动巡检系统客户端</title>
-        <link rel="stylesheet" href="/css/themes/default/jquery.mobile-1.3.1.min.css">
+        <link rel="stylesheet" href="jquery-mobile-flat-ui-theme/generated/jquery.mobile.flatui.min.css">
+        <link rel="stylesheet" href="/css/main.css">
         <script type="text/javascript" src="/js/jquery.js"></script>
         <script type="text/javascript" src="/js/global.js"></script>
         <script type="text/javascript" src="/js/jquery.mobile-1.3.1.min.js"></script>
         <script type="text/javascript" src="/js/main.js"></script>
-        <link rel="stylesheet" href="/css/main.css">
       </head>
     </html>
   </head>
-  <body>
+  <body id="page_p01-1">
     <div data-role="page">
       <div data-role="header" data-position="fixed"><a data-role="button" data-icon="arrow-l" data-iconpos="left" href="p01.html">返回</a>
-        <h1>机房设备巡检单</h1><a data-role="button" data-icon="plus" data-iconpos="left" href="#1" onclick="save_xunjian()">保存</a>
+        <h1>机房设备巡检单</h1><a data-role="button" data-icon="star" data-iconpos="right" href="#1" onclick="save_xunjian()">保存</a>
       </div>
       <div data-role="content" id="main_content">
-        <div style="text-align:right;color:#666">巡检人  2013-05-15</div>
-        <div id="filter"> <span class="fleft"> 
-            <input type="checkbox" id="searchFilter" name="searchFilter" data-mini="true">
-            <label for="searchFilter">仅显示异常</label></span><span style="width:8em" class="fright">
-            <input type="search" data-mini="true"></span>
-          <div class="clear"></div>
+        <div id="cunjianren">
+          <div class="l">巡检人 2013-05-15</div>
+          <div class="r"> 
+            <input type="checkbox" id="searchFilter" name="searchFilter" data-mini="true" data-theme="c">
+            <label for="searchFilter" data-theme="c">仅显示异常</label>
+          </div>
+        </div>
+        <div data-role="fieldcontain" class="filter"> 
+          <input type="search" data-mini="true">
         </div>
         <h3>ERP应用服务器</h3>
-        <ul data-role="listview">
+        <ul id="cunjianren_ul" data-role="listview">
           <li>
-            <div>
-              <div style="padding-top:0.7em" class="fleft">服务状态</div>
-              <div class="fright"> 
-                <div class="fleft">
-                  <select data-role="slider" data-mini="true">
-                    <option>正常</option>
-                    <option>异常</option>
-                  </select>
-                </div>
-                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
-              </div>
-              <div class="clear"></div>
+            <div class="l">服务状态</div>
+            <div class="r">
+              <div class="s"></div>
+              <select data-role="slider" data-theme="b" data-mini="true">
+                <option>正常</option>
+                <option>异常</option>
+              </select><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-new" data-theme="b" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="none" class="i">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-camera" data-theme="b" data-iconpos="notext" class="i">拍照 </a>
             </div>
+            <div class="clear"></div>
           </li>
           <li>
-            <div>
-              <div style="padding-top:0.7em" class="fleft">服务状态</div>
-              <div class="fright"> 
-                <div class="fleft">
-                  <select data-role="slider" data-mini="true">
-                    <option>正常</option>
-                    <option>异常</option>
-                  </select>
-                </div>
-                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
-              </div>
-              <div class="clear"></div>
+            <div class="l">服务状态</div>
+            <div class="r">
+              <div class="s"></div>
+              <select data-role="slider" data-theme="b" data-mini="true">
+                <option>正常</option>
+                <option>异常</option>
+              </select><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-new" data-theme="b" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="none" class="i">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-camera" data-theme="b" data-iconpos="notext" class="i">拍照 </a>
             </div>
+            <div class="clear"></div>
           </li>
           <li>
-            <div>
-              <div style="padding-top:0.7em" class="fleft">服务状态</div>
-              <div class="fright"> 
-                <div class="fleft">
-                  <select data-role="slider" data-mini="true">
-                    <option>正常</option>
-                    <option>异常</option>
-                  </select>
-                </div>
-                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
-              </div>
-              <div class="clear"></div>
+            <div class="l">服务状态</div>
+            <div class="r">
+              <div class="s"></div>
+              <select data-role="slider" data-theme="b" data-mini="true">
+                <option>正常</option>
+                <option>异常</option>
+              </select><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-new" data-theme="b" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="none" class="i">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-camera" data-theme="b" data-iconpos="notext" class="i">拍照 </a>
             </div>
+            <div class="clear"></div>
           </li>
           <li>
-            <div>
-              <div style="padding-top:0.7em" class="fleft">服务状态</div>
-              <div class="fright"> 
-                <div class="fleft">
-                  <select data-role="slider" data-mini="true">
-                    <option>正常</option>
-                    <option>异常</option>
-                  </select>
-                </div>
-                <div style="padding-left:0.6em" class="fright"><a data-role="button" data-mini="true" data-inline="true" data-icon="info" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="slidedown">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="star" data-iconpos="notext">拍照 </a><span style="display:inline-block;vertical-align:middle;color:#777;padding-top:3px;font-size:14px;width:1em;text-align:center;">0</span></div>
-              </div>
-              <div class="clear"></div>
+            <div class="l">服务状态</div>
+            <div class="r">
+              <div class="s"></div>
+              <select data-role="slider" data-theme="b" data-mini="true">
+                <option>正常</option>
+                <option>异常</option>
+              </select><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-new" data-theme="b" data-iconpos="notext" href="desc.html" data-rel="dialog" data-transition="none" class="i">备注</a><a data-role="button" data-mini="true" data-inline="true" data-icon="flat-camera" data-theme="b" data-iconpos="notext" class="i">拍照 </a>
             </div>
+            <div class="clear"></div>
           </li>
         </ul>
       </div>
